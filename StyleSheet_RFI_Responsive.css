@@ -17,7 +17,7 @@
   padding-bottom: 1px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-  background-image: url("https://i.ibb.co/QjP5PGX/rfi-logo2.png");
+  background-image: url("App_Themes/Default/RFI/rfi_logo2.png");
   background-repeat: no-repeat;
   background-position-x:center;
   min-width: 250px;
@@ -104,7 +104,7 @@ input[type="submit"]:hover,input[type="submit"]:active,input[type="submit"]:focu
 }
 body { 
   font-family: arial, sans-serif;
-  background-image: url("https://adfs.pic.rfi.it/adfs/ls/App_Themes/Default/RFI/rfi_background.jpg");
+  background-image: url("App_Themes/Default/RFI/rfi_background.jpg");
   background-size: cover;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
