@@ -1,0 +1,113 @@
+.login-page {
+  padding: 8% 0 0;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+  min-width: 250px;
+  max-width: 600px;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #eeeeee;
+  padding-top: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 1px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  background-image: url("https://i.ibb.co/QjP5PGX/rfi-logo2.png");
+  background-repeat: no-repeat;
+  background-position-x:center;
+  min-width: 250px;
+  max-width: 600px;
+}
+.form input {
+  font-family: arial, sans-serif;
+  outline: 0;
+  background: #ffffff;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  border:1px solid #d7dada;
+  font-family: arial, helvetica, sans-serif;
+  -webkit-border-radius: 3px; 
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #f4f5f5;
+  width: 100%;
+  padding: 15px;
+  color: #4c4c4c;
+  font-size: 18px;
+  font-weight:bold;
+  background-color: #f4f5f5; background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f5f5), to(#dfdddd));
+  background-image: -webkit-linear-gradient(top, #f4f5f5, #dfdddd);
+  background-image: -moz-linear-gradient(top, #f4f5f5, #dfdddd);
+  background-image: -ms-linear-gradient(top, #f4f5f5, #dfdddd);
+  background-image: -o-linear-gradient(top, #f4f5f5, #dfdddd);
+  background-image: linear-gradient(to bottom, #f4f5f5, #dfdddd);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f4f5f5, endColorstr=#dfdddd);
+}
+input[type="submit"]:hover,input[type="submit"]:active,input[type="submit"]:focus {
+  background: #bfc4c4;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body { 
+  font-family: arial, sans-serif;
+  background-image: url("https://adfs.pic.rfi.it/adfs/ls/App_Themes/Default/RFI/rfi_background.jpg");
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+.TextColorError     { color: #EE2037; }
